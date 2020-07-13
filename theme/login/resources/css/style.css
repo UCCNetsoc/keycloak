@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: rgb(33,33,33);
+    color: white;
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background: none !important;
+    font-weight: 400 !important;
+}
+
+#kc-header {
+    height: 64px;
+    background-color: #2196F3;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.35);
+    margin: 0 auto;
+}
+
+label {
+    font-size: 12px;
+}
+
+#kc-header img {
+    height: 32px;
+    margin: 16px auto;
+    padding: 0;
+}
+
+#kc-header-wrapper {
+    position: relative;
+    height: 64px;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    text-transform: lowercase;
+    font-weight: 200;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#kc-content-wrapper {
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 16px;
+    border-top: 1px solid rgb(55,55,55);
+}
+
+.alert {
+    color: #F44336;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+
+#kc-form-buttons {
+    border-top: 1px solid rgb(55,55,55);
+    padding-top: 16px;
+    margin-top: 8px;
+}
+
+#kc-login, .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 4px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #2196F3;
+    letter-spacing: 0.09em;
+    border: none;
+    font-family: 'Roboto', sans-serif !important;
+    color: white;
+    font-weight: 500;
+    padding: 16px 0;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+#kc-login:hover, .btn:hover {
+    filter: brightness(1.1);
+}
+
+#sign-up {
+    display: inline;
+    text-transform: uppercase;
+    margin: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    letter-spacing: 0.09em;
+    border: none;
+    font-family: 'Roboto', sans-serif !important;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#sign-up:hover {
+    background-color: #4ba84e;
+
+}
+
+label {
+  position: relative;
+  opacity: 0.5;
+  margin: 0px auto;
+  padding: 8px;
+}
+
+input {
+    margin: 8px auto;
+    height: 16px;
+    background-color: rgba(0,0,0,0.25);
+    border: none;
+    padding: 8px;
+    color: white;
+    width: calc(100% - 16px);
+    font-size: 16px;
+    font-weight: 300;
+}
