@@ -27,7 +27,7 @@ window.onload = () => {
     color: gray;
     margin-bottom: 16px;
   ">
-    <p>if you had signed up to Netsoc Admin prior 2021, <a target="_blank" href="https://wiki.netsoc.co/en/technology/migration">please consult our wiki</a></p>
+    <p>if you had signed up to Netsoc Admin prior 2021,<br/><a target="_blank" href="https://wiki.netsoc.co/en/technology/migration">please consult our wiki</a></p>
   </div>`
 }
 
