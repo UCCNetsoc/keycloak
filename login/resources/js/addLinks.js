@@ -12,9 +12,9 @@ window.onload = () => {
       font-size: 11px;
       color: gray;
     ">
-      <a target="_blank" href="https://wiki.netsoc.co/en/services/terms-of-service">Terms of Service</a>
+      <a target="_blank" href="https://discord.netsoc.co">Discord</a>
       <span> &bull; </span>
-      <a target="_blank" href="https://wiki.netsoc.co/en/services/privacy-policy">Privacy Policy</a>
+      <a target="_blank" href="https://wiki.netsoc.co/en/services/terms-of-service">Terms of Service</a>
     </div>
   `);
 
